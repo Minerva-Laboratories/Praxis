@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="356" viewBox="0 0 1280 356" role="img" aria-labelledby="title desc">
+  <title id="title">PRAXIS — Small policy. Real manipulation.</title>
+  <desc id="desc">Minerva Labs. A compact vision-action policy, trained from scratch.</desc>
+  <rect width="1280" height="356" fill="#fbfaf7"/>
+  <path d="M0 0H1280" stroke="#bfa541" stroke-width="8"/>
+  <g fill="#252820" font-family="Arial, Helvetica, sans-serif">
+    <rect x="48" y="35" width="9" height="9" fill="#bfa541"/>
+    <text x="70" y="44" font-size="14" letter-spacing="2">MINERVA LABS / EMBODIED INTELLIGENCE</text>
+    <text x="43" y="172" font-size="116" letter-spacing="-8" font-weight="600">PRAXIS</text>
+    <text x="50" y="229" font-size="34" letter-spacing="-1">Small policy. Real manipulation.</text>
+    <text x="50" y="268" font-size="19" fill="#66685f">A vision-action policy trained from scratch.</text>
+    <path d="M50 302H1230" stroke="#deded5"/>
+    <text x="50" y="329" font-size="13" letter-spacing="1.7" fill="#806a20">SELF-EXPOSURE IN PLACE OF SCALE</text>
+    <text x="1230" y="329" text-anchor="end" font-size="13" fill="#66685f">minervalabs.mx</text>
+    <path d="M868 82V263" stroke="#deded5"/>
+    <text x="913" y="164" font-size="76" letter-spacing="-4">7.56<tspan font-size="38" letter-spacing="0" fill="#806a20">M</tspan></text>
+    <text x="917" y="197" font-size="18" fill="#66685f">parameters</text>
+    <text x="917" y="243" font-size="15">Observe. Act. Learn.</text>
+  </g>
+</svg>

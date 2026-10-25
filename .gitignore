@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+data/
+*.log
+*.err
+*.egg-info/
+.DS_Store
+
+# Local environments, generated runs and build output.
+.venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+runs/
+results/
+checkpoints/*.pt
+!checkpoints/praxis-regression.pt
+!checkpoints/praxis-generative.pt

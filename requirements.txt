@@ -1,0 +1,3 @@
+-e .
+# External (install separately, must be importable):
+#   LIBERO  -> https://github.com/Lifelong-Robot-Learning/LIBERO  (brings robosuite, mujoco)

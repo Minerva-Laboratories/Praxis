@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="308" viewBox="0 0 1280 308" role="img" aria-labelledby="title desc">
+  <title id="title">From observations to an eight-action chunk</title>
+  <desc id="desc">Two camera views go through a 2.01M vision encoder, joining task and robot state in a cross-attention policy trunk. A temporal convolution head produces eight actions in one forward pass.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#806a20"/></marker></defs>
+  <rect width="1280" height="308" rx="4" fill="#fbfaf7"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#252820">
+    <text x="34" y="37" font-size="13" letter-spacing="1.8" fill="#806a20">THE REGRESSION POLICY / 7.56M PARAMETERS</text>
+    <g fill="#fff" stroke="#deded5"><rect x="34" y="72" width="227" height="109" rx="5"/><rect x="34" y="198" width="227" height="75" rx="5"/><rect x="313" y="72" width="244" height="109" rx="5"/><rect x="614" y="103" width="279" height="139" rx="5"/></g>
+    <rect x="952" y="103" width="294" height="139" rx="5" fill="#252820"/>
+    <text x="54" y="104" font-size="21">Two camera views</text><text x="54" y="135" font-size="15" fill="#66685f">Agent + wrist RGB</text><text x="54" y="159" font-size="15" fill="#66685f">128 × 128 each</text>
+    <text x="54" y="228" font-size="19">Task ID + robot state</text><text x="54" y="254" font-size="15" fill="#66685f">8 proprioceptive values</text>
+    <text x="334" y="107" font-size="21">Vision encoder</text><text x="334" y="136" font-size="15" fill="#66685f">2.01M · from scratch</text><text x="334" y="160" font-size="15" fill="#66685f">Visual tokens</text>
+    <text x="635" y="140" font-size="21">Cross-attention trunk</text><text x="635" y="172" font-size="15" fill="#66685f">Task + state + action queries</text><text x="635" y="201" font-size="15" fill="#66685f">Temporal convolution head</text>
+    <text x="976" y="143" font-size="23" fill="#fbfaf7">8 robot actions</text><text x="976" y="176" font-size="16" fill="#deded5">End-effector deltas + gripper</text><text x="976" y="211" font-size="16" fill="#d4ba5c">One forward pass</text>
+    <g fill="none" stroke="#806a20" stroke-width="2" marker-end="url(#arrow)"><path d="M261 126H306"/><path d="M557 126H606"/><path d="M261 235H581V209H606"/><path d="M893 173H944"/></g>
+  </g>
+</svg>

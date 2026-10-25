@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minerva-praxis"
+version = "0.1.0"
+description = "Compact vision-action policies trained through self-exposure"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.0", "numpy>=1.24", "Pillow>=10"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.9", "build>=1"]
+
+[project.urls]
+Homepage = "https://www.minervalabs.mx/"
+Repository = "https://github.com/Minerva-Laboratories/Praxis"
+Issues = "https://github.com/Minerva-Laboratories/Praxis/issues"
+
+[project.scripts]
+praxis = "praxis.cli:main"
+praxis-evaluate = "praxis.eval_cont:main"
+praxis-train = "praxis.train_eff:main"
+
+[tool.setuptools.packages.find]
+include = ["praxis*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E9", "F63", "F7", "F82"]

@@ -29,14 +29,16 @@ repository are earlier snapshots, scoring 78.0% and 79.5% under their recorded p
 <th width="50%">Arena G1 · 18.4M parameters</th>
 </tr>
 <tr>
-<td><img src="docs/assets/libero.gif" alt="PRAXIS demonstration of simulated LIBERO manipulation tasks with a 7.56M-parameter policy." width="100%"></td>
+<td><img src="docs/assets/libero-highlights.gif" alt="22.4-second PRAXIS highlights: a 7.56M-parameter policy places a bowl, moves an object into a basket, opens a drawer, and operates a stove in LIBERO simulation." width="100%"></td>
 <td><img src="docs/assets/arena-g1.gif" alt="Short Arena G1 simulation demonstration: a Unitree G1 humanoid performs an apple-to-plate manipulation task, labelled 18.4M parameters in the source presentation." width="100%"></td>
 </tr>
 <tr>
-<td>Arm manipulation · full 60.4-second demonstration</td>
+<td>Arm manipulation · 22.4-second highlights</td>
 <td>Humanoid manipulation · 7.8-second demonstration</td>
 </tr>
 </table>
+
+[Watch the full LIBERO demonstration (60.4 seconds)](docs/assets/libero.gif).
 
 Both are simulation demos. The 83.1% result above belongs to the **7.56M LIBERO regression policy**.
 The Arena G1 clip shows a separate 18.4M variant; its implementation, weights and evaluation are not
